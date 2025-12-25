@@ -1,32 +1,18 @@
-import Img1 from "../assets/Img1.svg";
-import Img2 from "../assets/Img2.svg";
-import Img3 from "../assets/Img3.svg";
-import Img4 from "../assets/Img4.svg";
-import Img5 from "../assets/Img5.svg";
-import Img6 from "../assets/Img6.svg";
-import Img7 from "../assets/Img7.svg";
-import Img8 from "../assets/Img8.svg";
-import Img9 from "../assets/Img9.svg";
-import Img10 from "../assets/Img10.svg";
-import Img11 from "../assets/Img11.svg";
-import AppleIcon from "../assets/apple.svg";
-import GoogleIcon from "../assets/google.svg";
-
 export default function HeaderContent() {
   const column1 = [
-    { src: Img1, top: 46, left: 336, width: 173, height: 173 },
-    { src: Img2, top: 177, left: 335, width: 58, height: 58 },
-    { src: Img3, top: 169.64, left: 439.64, width: 141.71, height: 141.71 },
-    { src: Img4, top: 338.51, left: 331.03, width: 226.93, height: 113.97 },
-    { src: Img5, top: 418, left: 330, width: 175, height: 176 },
+    { src: "/assets/Img1.svg", top: 46, left: 336, width: 173, height: 173 },
+    { src: "/assets/Img2.svg", top: 177, left: 335, width: 58, height: 58 },
+    { src: "/assets/Img3.svg", top: 169.64, left: 439.64, width: 141.71, height: 141.71 },
+    { src: "/assets/Img4.svg", top: 338.51, left: 331.03, width: 226.93, height: 113.97 },
+    { src: "/assets/Img5.svg", top: 418, left: 330, width: 175, height: 176 },
   ];
 
   const column3 = [
-    { src: Img6, top: 63.84, left: 1388.74, width: 201.52, height: 126.33 },
-    { src: Img7, top: 124, left: 1297, width: 169, height: 169 },
-    { src: Img8, top: 235, left: 1449, width: 155, height: 153 },
-    { src: Img9, top: 336, left: 1316, width: 230, height: 128 },
-    { src: Img10, top: 440, left: 1375, width: 152, height: 153 },
+    { src: "/assets/Img6.svg", top: 63.84, left: 1388.74, width: 201.52, height: 126.33 },
+    { src: "/assets/Img7.svg", top: 124, left: 1297, width: 169, height: 169 },
+    { src: "/assets/Img8.svg", top: 235, left: 1449, width: 155, height: 153 },
+    { src: "/assets/Img9.svg", top: 336, left: 1316, width: 230, height: 128 },
+    { src: "/assets/Img10.svg", top: 440, left: 1375, width: 152, height: 153 },
   ];
 
   return (
@@ -52,7 +38,7 @@ export default function HeaderContent() {
       {/* Column 2 - Vertical stack stretched */}
       <div className="w-1/3 flex flex-col justify-between items-center h-full">
         {/* Top Logo */}
-        <img src={Img11} alt="Logo" className="w-[128.75px] h-[128.75px]" />
+        <img src="/assets/Img11.svg" alt="Logo" className="w-[128.75px] h-[128.75px]" />
 
         {/* Main Text */}
         <div className="text-center">
@@ -68,11 +54,11 @@ export default function HeaderContent() {
           </button>
 
           <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center cursor-pointer">
-            <img src={AppleIcon} alt="AppleIcon" className="w-full h-full" />
+            <img src="/assets/apple.svg" alt="AppleIcon" className="w-full h-full" />
           </button>
 
           <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center cursor-pointer">
-            <img src={GoogleIcon} alt="GoogleIcon" className="w-full h-full" />
+            <img src="/assets/google.svg" alt="GoogleIcon" className="w-full h-full" />
           </button>
         </div>
 

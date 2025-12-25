@@ -1,15 +1,3 @@
-import arrowLeftDark from "../assets/arrowLeftDark.svg";
-import arrowRightDark from "../assets/arrowRightDark.svg";
-import dotDark from "../assets/dotDark.svg";
-import dotWhite from "../assets/dotWhite.svg";
-import facebookIcon from "../assets/facebookIcon.svg";
-import twitterIcon from "../assets/twitterIcon.svg";
-import instagramIcon from "../assets/instagramIcon.svg";
-import youtubeIcon from "../assets/youtubeIcon.svg";
-import fbSmallicon from "../assets/fbSmallicon.svg";
-import twittersmallicon from "../assets/twittersmallicon.svg";
-import Instasmallicon from "../assets/Instasmallicon.svg";
-
 export default function CardsGridSection() {
   return (
     <>
@@ -29,18 +17,18 @@ export default function CardsGridSection() {
 
             {/* Icons inline with text */}
             <div className="flex gap-4">
-              <img src={facebookIcon} alt="Facebook" className="w-12 h-12" />
-              <img src={twitterIcon} alt="Twitter" className="w-12 h-12" />
-              <img src={instagramIcon} alt="Instagram" className="w-12 h-12" />
-              <img src={youtubeIcon} alt="YouTube" className="w-12 h-12" />
+              <img src="/assets/facebookIcon.svg" alt="Facebook" className="w-12 h-12" />
+              <img src="/assets/twitterIcon.svg" alt="Twitter" className="w-12 h-12" />
+              <img src="/assets/instagramIcon.svg" alt="Instagram" className="w-12 h-12" />
+              <img src="/assets/youtubeIcon.svg" alt="YouTube" className="w-12 h-12" />
             </div>
           </div>
         </div>
 
         {/* Arrows below top row, on right side */}
         <div className="flex justify-end gap-6 mt-6">
-          <img src={arrowLeftDark} alt="Left Arrow" className="w-4 h-6 cursor-pointer p-1" />
-          <img src={arrowRightDark} alt="Right Arrow" className="w-4 h-6 cursor-pointer p-1" />
+          <img src="/assets/arrowLeftDark.svg" alt="Left Arrow" className="w-4 h-6 cursor-pointer p-1" />
+          <img src="/assets/arrowRightDark.svg" alt="Right Arrow" className="w-4 h-6 cursor-pointer p-1" />
         </div>
 
         <div className="flex gap-6 mt-6">
@@ -55,7 +43,7 @@ export default function CardsGridSection() {
               </div>
               {/* Right: Icon */}
               <div>
-                <img src={twittersmallicon} alt="twitterIcon" className="w-[22px] h-[32px]" />
+                <img src="/assets/twittersmallicon.svg" alt="twitterIcon" className="w-[22px] h-[32px]" />
               </div>
             </div>
 
@@ -75,7 +63,7 @@ export default function CardsGridSection() {
                 <p className="font-avenir font-semibold text-[14px] leading-[24.92px] text-[#9F9F9F]">@m741s</p>
               </div>
               <div>
-                <img src={Instasmallicon} alt="Card Icon" className="w-[22px] h-[32px]" />
+                <img src="/assets/Instasmallicon.svg" alt="Card Icon" className="w-[22px] h-[32px]" />
               </div>
             </div>
 
@@ -94,7 +82,7 @@ export default function CardsGridSection() {
                 <p className="font-avenir font-semibold text-[14px] leading-[24.92px] text-[#9F9F9F]">@meredith.sweet.silberstein</p>
               </div>
               <div>
-                <img src={fbSmallicon} alt="Card Icon" className="w-[22px] h-[32px]" />
+                <img src="/assets/fbSmallicon.svg" alt="Card Icon" className="w-[22px] h-[32px]" />
               </div>
             </div>
 
@@ -108,12 +96,12 @@ export default function CardsGridSection() {
 
         {/* Dots below cards */}
         <div className="flex items-center gap-5 justify-center mt-10 ">
-          <img src={dotDark} alt="Dark Dot" className="w-2.5 h-2.5" />
-          <img src={dotWhite} alt="White Dot 1" className="w-2.5 h-2.5" />
-          <img src={dotWhite} alt="White Dot 2" className="w-2.5 h-2.5" />
-          <img src={dotWhite} alt="White Dot 3" className="w-2.5 h-2.5" />
-          <img src={dotWhite} alt="White Dot 3" className="w-2.5 h-2.5" />
-          <img src={dotWhite} alt="White Dot 3" className="w-2.5 h-2.5" />
+          <img src="/assets/dotDark.svg" alt="Dark Dot" className="w-2.5 h-2.5" />
+          <img src="/assets/dotWhite.svg" alt="White Dot 1" className="w-2.5 h-2.5" />
+          <img src="/assets/dotWhite.svg" alt="White Dot 2" className="w-2.5 h-2.5" />
+          <img src="/assets/dotWhite.svg" alt="White Dot 3" className="w-2.5 h-2.5" />
+          <img src="/assets/dotWhite.svg" alt="White Dot 4" className="w-2.5 h-2.5" />
+          <img src="/assets/dotWhite.svg" alt="White Dot 5" className="w-2.5 h-2.5" />
         </div>
       </div>
       <div className="pb-5 bg-white w-full border-b border-[#E5E5E5]"></div>

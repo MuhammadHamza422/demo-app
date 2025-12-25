@@ -1,5 +1,3 @@
-import PriceCardIcon from "../assets/PriceCardIcon.svg";
-
 export default function PriceCard() {
   return (
     <div className="w-full h-[607px] relative">
@@ -13,7 +11,8 @@ export default function PriceCard() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1330px] h-[587.59px] bg-[#F5F5F5] rounded-[20px] flex flex-col relative overflow-visible p-12 pt-0">
         {/* Icon at top */}
         <div className="pt-[124px]">
-          <img src={PriceCardIcon} alt="Icon" className="w-[76px] h-[120px]" />
+          {/* Path updated to public folder string */}
+          <img src="/assets/PriceCardIcon.svg" alt="Icon" className="w-[76px] h-[120px]" />
         </div>
 
         {/* Heading */}

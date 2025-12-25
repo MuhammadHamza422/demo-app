@@ -1,6 +1,3 @@
-import SVG from "../assets/SVG.svg";
-import Item from "../assets/item.svg"; // flag icon
-
 function Navbar() {
   const links = ["How it works", "All apps", "Pricing", "For Teams", "Blog", "Podcast"];
 
@@ -9,7 +6,8 @@ function Navbar() {
       {/* LEFT (Logo) */}
       <div className="flex items-center">
         <a href="#" className="w-[102px] h-[32px] flex items-center">
-          <img src={SVG} alt="Logo" className="w-[20px] h-[32px]" />
+          {/* Using string path for SVG.svg */}
+          <img src="/assets/SVG.svg" alt="Logo" className="w-[20px] h-[32px]" />
         </a>
       </div>
 
@@ -28,7 +26,8 @@ function Navbar() {
 
         {/* Flag */}
         <div className="flex items-center justify-center w-[26px]">
-          <img src={Item} alt="Flag" className="cursor-pointer" />
+          {/* Using string path for item.svg */}
+          <img src="/assets/Item.svg" alt="Flag" className="cursor-pointer" />
         </div>
 
         {/* Sign in */}

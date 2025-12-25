@@ -1,14 +1,3 @@
-import PriceCardIcon from "../assets/PriceCardIcon.svg";
-import setApplogoText from "../assets/setApplogoText.svg";
-import heartIcon from "../assets/heartIcon.svg";
-import arrowRightDark from "../assets/arrowRightDark.svg";
-import Flag from "../assets/item.svg";
-import arrowDownWhite from "../assets/arrowDownWhite.svg";
-import fbDarkIcon from "../assets/fbDarkIcon.svg";
-import InstaDarkIcon from "../assets/InstaDarkIcon.svg";
-import twitterDarkIcon from "../assets/twitterDarkIcon.svg";
-import YtDarkIcon from "../assets/YtDarkIcon.svg";
-
 const rightColumnData = [
   ["Home", "About", "Getting started with Setapp"],
   ["How It Works", "Support", "Remote access to other Mac"],
@@ -30,14 +19,14 @@ export default function Footer() {
         <div className="flex-1 flex flex-col gap-6">
           {/* Row 1: Logo + Text inline */}
           <div className="flex items-center gap-3">
-            <img src={PriceCardIcon} alt="Logo" className="w-[20px] h-[32px]" />
-            <img src={setApplogoText} alt="Logo" className="w-[70px] h-[14px]" />
+            <img src="/assets/PriceCardIcon.svg" alt="Logo" className="w-[20px] h-[32px]" />
+            <img src="/assets/setApplogoText.svg" alt="Logo" className="w-[70px] h-[14px]" />
           </div>
 
           {/* Row 2: Text + Heart */}
           <div className="flex gap-2 items-baseline mt-10">
             <p className="font-avenir font-normal text-[16px] leading-[28.48px] text-gray-300">Updates from our team, written with love</p>
-            <img src={heartIcon} alt="heartIcon" className="w-[13px] h-[10.89px] object-contain" />
+            <img src="/assets/heartIcon.svg" alt="heartIcon" className="w-[13px] h-[10.89px] object-contain" />
           </div>
 
           {/* Row 3: Input + Arrow Button */}
@@ -72,7 +61,7 @@ export default function Footer() {
                 p-[18px_23px]
               "
             >
-              <img src={arrowRightDark} alt="arrow" className="w-4 h-4" />
+              <img src="/assets/arrowRightDark.svg" alt="arrow" className="w-4 h-4" />
             </button>
           </div>
         </div>
@@ -93,7 +82,7 @@ export default function Footer() {
 
       {/* Bottom Row: Buttons and Language Selector */}
       <div className="flex justify-between items-center mt-10">
-        <div className="flex gap-[10px]">
+        <div className="flex">
           <button
             className="
               w-[41px] 
@@ -131,9 +120,9 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center justify-center gap-[10px]">
-          <img src={Flag} alt="flag" className="w-[28px]" />
+          <img src="/assets/Item.svg" alt="flag" className="w-[28px]" />
           <span className="font-avenir font-normal text-[16px] leading-[28.48px] text-white cursor-pointer">English</span>
-          <img src={arrowDownWhite} alt="arrow" className="w-[10px] h-[10px] cursor-pointer mt-1" />
+          <img src="/assets/arrowDownWhite.svg" alt="arrow" className="w-[10px] h-[10px] cursor-pointer mt-1" />
         </div>
       </div>
 
@@ -149,16 +138,16 @@ export default function Footer() {
         {/* Right Social Links */}
         <div className="flex gap-3 mt-2">
           <a className="w-[26px] h-[26px] opacity-45 flex items-center justify-center rounded-full cursor-pointer">
-            <img src={fbDarkIcon} className="w-[26px] h-[26px]" />
+            <img src="/assets/fbDarkIcon.svg" className="w-[26px] h-[26px]" />
           </a>
           <a className="w-[26px] h-[26px] opacity-45 flex items-center justify-center rounded-full cursor-pointer">
-            <img src={twitterDarkIcon} className="w-[26px] h-[26px]" />
+            <img src="/assets/twitterDarkIcon.svg" className="w-[26px] h-[26px]" />
           </a>
           <a className="w-[26px] h-[26px] opacity-45 flex items-center justify-center rounded-full cursor-pointer">
-            <img src={InstaDarkIcon} className="w-[26px] h-[26px]" />
+            <img src="/assets/InstaDarkIcon.svg" className="w-[26px] h-[26px]" />
           </a>
           <a className="w-[26px] h-[26px] opacity-45 flex items-center justify-center rounded-full cursor-pointer">
-            <img src={YtDarkIcon} className="w-[26px] h-[26px]" />
+            <img src="/assets/YtDarkIcon.svg" className="w-[26px] h-[26px]" />
           </a>
         </div>
       </div>
