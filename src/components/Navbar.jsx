@@ -1,4 +1,3 @@
-import React from "react";
 import SVG from "../assets/SVG.svg";
 import Item from "../assets/Item.svg"; // flag icon
 
