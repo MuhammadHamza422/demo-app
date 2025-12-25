@@ -63,15 +63,15 @@ export default function HeaderContent() {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <button className="w-[209.93px] h-[52px] pt-[14px] pr-[30.93px] pb-[14px] pl-[32px] rounded-[6px] border border-white bg-white flex items-center justify-center">
+          <button className="w-[209.93px] h-[52px] pt-[14px] pr-[30.93px] pb-[14px] pl-[32px] rounded-[6px] border border-white bg-white flex items-center justify-center cursor-pointer">
             <span className="font-avenir font-normal text-[16px] leading-[24px] tracking-[1px] text-center text-[#26262B]">Try free for 7 days</span>
           </button>
 
-          <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center">
+          <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center cursor-pointer">
             <img src={AppleIcon} alt="AppleIcon" className="w-full h-full" />
           </button>
 
-          <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center">
+          <button className="w-[62px] h-[52px] pt-[10px] pr-[15px] pb-[10px] pl-[15px] rounded-[6px] border border-white bg-white flex items-center justify-center cursor-pointer">
             <img src={GoogleIcon} alt="GoogleIcon" className="w-full h-full" />
           </button>
         </div>

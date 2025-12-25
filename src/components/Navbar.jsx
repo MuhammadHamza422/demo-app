@@ -27,7 +27,7 @@ function Navbar() {
         <span className="text-white opacity-50">|</span>
 
         {/* Flag */}
-        <div className="flex items-center justify-center w-[26px] h-[21.5px] p-[4px]">
+        <div className="flex items-center justify-center w-[26px]">
           <img src={Item} alt="Flag" className="cursor-pointer" />
         </div>
 

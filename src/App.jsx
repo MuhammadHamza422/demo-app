@@ -5,6 +5,7 @@ import InfoSection from "./components/InfoSection";
 import CardSection from "./components/CardSection";
 import CardsGridSection from "./components/CardsGridSection";
 import PriceCard from "./components/PriceCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
         <CardsGridSection />
         <PriceCard />
       </main>
-
-      <footer className="py-8 text-center text-gray-500">© 2025 Demo Test</footer>
+      {/* Footer Component is outside the main section as per figma*/}
+      <Footer />
     </div>
   );
 }
