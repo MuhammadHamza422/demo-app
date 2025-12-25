@@ -1,5 +1,5 @@
 import SVG from "../assets/SVG.svg";
-import Item from "../assets/Item.svg"; // flag icon
+import Item from "../assets/item.svg"; // flag icon
 
 function Navbar() {
   const links = ["How it works", "All apps", "Pricing", "For Teams", "Blog", "Podcast"];
